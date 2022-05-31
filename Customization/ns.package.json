@@ -1,0 +1,52 @@
+{
+    "gulp": {
+        "javascript": [
+            "JavaScript/*.js",
+            "JavaScript/*.ts"
+        ],
+        "templates": [
+            "Templates/*"
+        ],
+        "images": [
+            "Images/*"
+        ]
+    },
+    "overrides":{
+        "Advanced/Home/JavaScript/Home.View.ts": "JavaScript/Home.View.ts",
+        "Advanced/MyAccountApplication/JavaScript/SC.MyAccount.Layout.ts": "JavaScript/SC.MyAccount.Layout.ts",
+        "Advanced/Footer/JavaScript/Footer.View.ts": "JavaScript/Footer.View.ts",
+		"Advanced/LoginRegister/JavaScript/LoginRegister.ForgotPassword.View.ts": "JavaScript/LoginRegister.ForgotPassword.View.ts",
+		"Advanced/LoginRegister/JavaScript/LoginRegister.Login.View.ts": "JavaScript/LoginRegister.Login.View.ts",
+        "Advanced/CheckoutApplication/JavaScript/SC.Checkout.Configuration.Steps.OPC.ts": "JavaScript/SC.Checkout.Configuration.Steps.OPC.ts",
+		"Advanced/ProductDetailToQuote/JavaScript/ProductDetailToQuote.View.ts": "JavaScript/ProductDetailToQuote.View.ts",
+        "Advanced/ReturnAuthorization/JavaScript/ReturnAuthorization.Form.View.ts": "JavaScript/ReturnAuthorization.Form.View.ts",
+		"Advanced/ReturnAuthorization/JavaScript/ReturnAuthorization.Form.Item.Summary.View.ts": "JavaScript/ReturnAuthorization.Form.Item.Summary.View.ts",
+		"Advanced/OrderWizard.Module.Address/JavaScript/OrderWizard.Module.Address.ts": "JavaScript/OrderWizard.Module.Address.ts",
+		"Advanced/OrderWizard.Module.Shipmethod/JavaScript/OrderWizard.Module.Shipmethod.ts": "JavaScript/OrderWizard.Module.Shipmethod.ts",
+		"Advanced/OrderWizard.Module.PaymentMethod/JavaScript/OrderWizard.Module.PaymentMethod.PurchaseNumber.ts": "JavaScript/OrderWizard.Module.PaymentMethod.PurchaseNumber.ts",
+		
+		"Advanced/RecordViews/JavaScript/RecordViews.View.ts": "JavaScript/RecordViews.View.ts",
+		"Advanced/RecordViews/JavaScript/RecordViews.Actionable.View.ts": "JavaScript/RecordViews.Actionable.View.ts",
+		"Advanced/RecordViews/JavaScript/RecordViews.Selectable.View.ts": "JavaScript/RecordViews.Selectable.View.ts",
+		"Advanced/OrderWizard.Module.CartSummary/JavaScript/OrderWizard.Module.CartSummary.ts": "JavaScript/OrderWizard.Module.CartSummary.ts",
+		
+		"Advanced/ReorderItems/JavaScript/ReorderItems.Actions.AddToCart.View.ts": "JavaScript/ReorderItems.Actions.AddToCart.View.ts",
+		"Advanced/RequestQuoteWizard/JavaScript/RequestQuoteWizard.Module.Header.ts": "JavaScript/RequestQuoteWizard.Module.Header.ts",
+		"Advanced/RequestQuoteWizard/JavaScript/RequestQuoteWizard.Module.Confirmation.ts": "JavaScript/RequestQuoteWizard.Module.Confirmation.ts",
+		
+		
+		"Commons/Facets/JavaScript/Facets.Browse.View.ts": "JavaScript/Facets.Browse.View.ts",
+		"Commons/Facets/JavaScript/Facets.Browse.CategoryHeading.View.ts": "JavaScript/Facets.Browse.CategoryHeading.View.ts",
+		"Commons/Facets/JavaScript/Facets.ItemCell.View.ts": "JavaScript/Facets.ItemCell.View.ts",
+		
+		"Commons/MenuTree/JavaScript/MenuTree.View.ts": "JavaScript/MenuTree.View.ts",
+		"Commons/MenuTree/JavaScript/MenuTree.Node.View.ts": "JavaScript/MenuTree.Node.View.ts",
+		 	
+		"Commons/ListHeader/JavaScript/ListHeader.View.ts": "JavaScript/ListHeader.View.ts",
+		"Commons/Transaction.Line.Views/JavaScript/Transaction.Line.Views.Cell.SelectableActionableNavigable.View.ts": "JavaScript/Transaction.Line.Views.Cell.SelectableActionableNavigable.View.ts",
+		
+		"Commons/Item/JavaScript/Item.Model.ts": "JavaScript/Item.Model.ts",
+		"Commons/Transaction/JavaScript/Transaction.List.View.ts": "JavaScript/Transaction.List.View.ts",
+		"Commons/Facets/JavaScript/Facets.CategoryCell.View.ts": "JavaScript/Facets.CategoryCell.View.ts"
+    }
+}
